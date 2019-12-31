@@ -32,6 +32,7 @@ public class MyControlelr {
 		PageInfo<Good> page = new PageInfo<Good>(list);
 		model.addAttribute("page", page);
 		model.addAttribute("m", m);
+		System.out.println(123);
 		return "list";
 	}
 	
